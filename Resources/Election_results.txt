@@ -1,0 +1,13 @@
+
+Election Results
+-------------------------
+Total Votes: 369,711
+-------------------------
+
+Count Votes:
+Jefferson: 10.510% ({'Jefferson': 38855, 'Denver': 306055, 'Arapahoe': 24801})
+Denver: 82.782% ({'Jefferson': 38855, 'Denver': 306055, 'Arapahoe': 24801})
+Arapahoe: 6.708% ({'Jefferson': 38855, 'Denver': 306055, 'Arapahoe': 24801})
+---------------------------
+County with largest turnout: 
+---------------------------
