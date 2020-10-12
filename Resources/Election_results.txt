@@ -9,5 +9,13 @@ Jefferson: 10.510% ({'Jefferson': 38855, 'Denver': 306055, 'Arapahoe': 24801})
 Denver: 82.782% ({'Jefferson': 38855, 'Denver': 306055, 'Arapahoe': 24801})
 Arapahoe: 6.708% ({'Jefferson': 38855, 'Denver': 306055, 'Arapahoe': 24801})
 ---------------------------
-County with largest turnout: 
+County with largest turnout: Denver
 ---------------------------
+Charles Casper Stockham: 23.0% (85,213)
+Diana DeGette: 73.8% (272,892)
+Raymon Anthony Doane: 3.1% (11,606)
+-------------------------
+Winner: 
+Winning Vote Count: 306,055
+Winning Percentage: 0.0%
+-------------------------

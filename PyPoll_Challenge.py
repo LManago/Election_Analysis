@@ -111,7 +111,7 @@ with open(r'C:\Users\Lakenia\Desktop\Election_Analysis\Resources\Election_result
     # 7: Print the county with the largest turnout to the terminal.
     largest_county_summary = (    
         f"---------------------------\n"
-        f"County with largest turnout: {largest_county}\n"
+        f"County with largest turnout: {winning_county}\n"
         f"---------------------------\n")    
 
     print(largest_county_summary)
@@ -124,7 +124,7 @@ with open(r'C:\Users\Lakenia\Desktop\Election_Analysis\Resources\Election_result
 
         # Retrieve vote count and percentage
         votes = candidate_votes.get(candidate_name)
-        vote_percentage = float(candidate_votes) / float(total_votes) * 100
+        vote_percentage = float(votes) / float(total_votes) * 100
         candidate_results = (
             f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
 
@@ -136,7 +136,7 @@ with open(r'C:\Users\Lakenia\Desktop\Election_Analysis\Resources\Election_result
 
         # Determine winning vote count, winning percentage, and candidate.
         if (votes > winning_count) and (vote_percentage > winning_percentage):
-            winning_count = votes
+            winning_count = candidate_votes
             winning_candidate = candidate_name
             winning_percentage = vote_percentage
 
